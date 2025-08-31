@@ -35,15 +35,15 @@ Save or display the final transformed images for analysis and use plt.show() to 
 
 ## Program :
 ```python
-Developed By: ARUN KUMAR B
-Register Number: 212223230021
+Developed By: SANJEEV RAJ.S
+Register Number: 212223220096
 
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread('nature.jpg')
+image = cv2.imread('tajmahal.jpg')
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # Convert BGR to RGB for Matplotlib
 
 # 1. Image Translation
@@ -111,10 +111,12 @@ plt.title("Cropped Image")
 plt.axis('off')
 plt.show()
 
+
 ```
 ## Output:
 
-![alt text](DIP-EXP-4.png)
+![Uploading Screenshot 2025-08-31 214212.png…]()
+
 
 
 ## Result: 
